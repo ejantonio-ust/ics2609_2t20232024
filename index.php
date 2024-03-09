@@ -33,7 +33,7 @@ function renderDemoFile(string $directoryName)
             }
         ?>
         <li>
-            <a href="<?= dirname(__DIR__) . $fileName ?>">
+            <a href="<?= "./" . $directoryName . "/" . $fileName ?>">
             <?= $fileName ?>
             </a>
         </li>
